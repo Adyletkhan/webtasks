@@ -1,0 +1,23 @@
+
+.menu a{ color: green;}
+.item{
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-top: 10px;
+ display: flex;
+ flex-direction: row;
+ width: 500px; }
+.item img{ display: inline; margin: 10px}
+.main_body{ display: inline; margin: 10px;}
+
+.title a{ font-size: 30;}
+.price{ border: 1px solid pink;
+	background-color:pink;
+	border-radius: 10px;
+	border-width: 5px;
+	color: green;
+}
+.city{ font-weight: bold;}
+.item.urgent{ background-color: yellow;}
+.item.urgent img{ width:100px; height:65px;}
+.description{ margin-left: 10px;}
